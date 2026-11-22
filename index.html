@@ -2,14 +2,19 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">	
-<title>Editorial Paroxismo</title>
-<style>
- body {
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Editorial Paroxismo</title>
+  
+  <!-- 1. MOVE THE LINK HERE (Outside of <style>) -->
+  <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Roboto&display=swap" rel="stylesheet">
+
+  <style>
+    body {
       max-width: 720px;
       margin: 40px auto;
       padding: 0 20px;
-      font-family: Roboto, serif;
+      /* 2. FIX THIS LINE: Remove Allerta Stencil so it's only for the "P" */
+      font-family: 'Roboto', serif; 
       font-size: 18px;
       line-height: 1.65;
       white-space: normal;
@@ -17,20 +22,24 @@
       hyphens: auto;
       -webkit-hyphens: auto;
     }
-
-p {
-  margin-top: 0;
-  margin-bottom: 1.5em;
-}
- footer {
+    p {
+      margin-top: 0;
+      margin-bottom: 1.5em;
+    }
+    footer {
       text-align: center;
       font-size: 14px;
       margin-top: 3em;
       margin-bottom: 2em;
     }
-</style>
+  </style>
 </head>
 <body>
 
-<p style="text-align: left;"><strong style="font-size: 2em;">Editorial Paroxismo</strong></p>
-	<hr>
+  <!-- Your lines 35-40 are PERFECT. Leave them exactly as they are. -->
+  <p style="display: flex; justify-content: space-between; align-items: center;">
+    <strong style="font-size: 2em;">Editorial Paroxismo</strong>
+    <span style="font-family: 'Allerta Stencil', sans-serif; font-size: 2.5em; line-height: 1;">P</span>
+  </p>
+  
+  <hr>
